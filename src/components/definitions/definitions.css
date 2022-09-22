@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 .meanings {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    height: 55vh;
-    border: 10px solid rgb(105, 105, 105);
-    border-radius: 10px;
-    padding: 10px 20px;
-    overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 55vh;
+  border: 10px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  margin-top: 10px;
   }
   
   .subTitle {
-    font-size: 5vw;
-    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    font-family: 'EB Garamond', serif;
   }
   
   @media (max-width: 900px) {

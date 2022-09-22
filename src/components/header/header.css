@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 .header {
     display: flex;
     align-items: center;
@@ -10,7 +11,7 @@
   .title {
     font-size: 7vw;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Dangrek', cursive;
   }
   
   @media (max-width: 900px) {
